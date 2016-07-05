@@ -44,9 +44,9 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="devicon-amazonwebservices-original"></span></div>
-							<div class="logo"><span class="devicon-docker-plain"></span></div>
-							<div class="logo"><span class="fa fa-flask"></span></div>
+							<div class="logo"><span class="devicon-amazonwebservices-original" title="AWS"></span></div>
+							<div class="logo"><span class="devicon-docker-plain" title="Docker"></span></div>
+							<div class="logo"><span class="fa fa-flask" title="Elixir"></span></div>
 							<h2>Ben Bailey</h2>
 							<p>Student and DevOps in Amherst and Austin</p>
 						</div>
@@ -58,9 +58,9 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/elixush.png" alt="" /></a>
+									<a href="https://github.com/benfb/elixush" class="image"><img src="images/elixush.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Elixush <i class="fa fa-flask" aria-hidden="true"></i></h2>
+										<h2 class="major">Elixush <i class="fa fa-flask" aria-hidden="true" title="Elixir"></i></h2>
 										<h4>Interpreter for the <a href="http://faculty.hampshire.edu/lspector/push.html">Push programming language</a></h4>
 										<p>Elixush takes advantage of Elixir and OTP to run
 										evolved programs across multiple nodes in a cluster.
@@ -77,14 +77,15 @@
 						<!-- Two -->
 							<section id="four" class="wrapper alt spotlight style1">
 								<div class="inner">
-									<a href="http://hamparchs.net" class="image"><img src="images/hamparchs.png" alt="" /></a>
+									<a href="http://www.hamparchs.net" class="image"><img src="images/hamparchs.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">HampArchs <i class="devicon-heroku-plain"></i> <i class="devicon-go-plain"></i></h2>
+										<h2 class="major">HampArchs <i class="devicon-heroku-plain" title="Heroku"></i> <i class="devicon-go-plain" title="Go"></i></h2>
 										<h4>Bringing the Hampshire archives to life</h4>
-										<p>For this hackathon project a friend and I gathered all the
-										existing Hampshire College archives into one place and did
-										some data analysis on the resulting corpus. The site also
-										lets the user easily access and search through the new database.</p>
+										<p>For this hackathon project, my team and I gathered all the
+										existing <a href="https://www.hampshire.edu/library/a-history-of-student-activities-and-achievements-at-hampshire-college">
+										Hampshire College archives</a> into one database and did
+										data analysis on the resulting corpus. The site lets
+										the user easily access and search through the database.</p>
 										<a href="http://www.hamparchs.net" class="special">Live</a>
 									</div>
 								</div>
@@ -93,16 +94,16 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style4">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/defconone.png" alt="" /></a>
+									<a href="http://www.defconone.us" class="image"><img src="images/defconone.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Defcon One <i class="devicon-nodejs-plain"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-mongodb-plain"></i></h2>
+										<h2 class="major">Defcon One <i class="devicon-nodejs-plain" title="NodeJS"></i> <i class="devicon-bootstrap-plain" title="Bootstrap"></i> <i class="devicon-mongodb-plain" title="MongoDB"></i></h2>
 										<h4>Web application built with NodeJS</h4>
-										<p>Defcon One was a site I built to help people who struggle
-										with psychological disorders to send messages and get in
-										touch with friends, family, and hotlines through the touch
-										of a button. It wasa my first major web project, built with
-										node.js, express, and Bootstrap. I released a mobile version
-										of the site, and an iPhone app version as well.</p>
+										<p>I built this site to help people who struggle with
+										psychological disorders to send messages and get in touch
+										with friends, family, and hotlines through the touch of a
+										button. It wasa my first major web project, built with node.js
+										express, and Bootstrap. I released a mobile version of the
+										site, and an iPhone app version as well.</p>
 										<a href="http://www.defconone.us" class="special">Live</a>
 									</div>
 								</div>
@@ -111,14 +112,20 @@
 						<!-- Four -->
 							<section id="four" class="wrapper alt spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/docker.png" alt="" /></a>
+									<a href="https://benbailey.me/2015/06/docker-telegraf-metrics/" class="image"><img src="images/docker.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Dockerfiles <i class="devicon-docker-plain"></i> <i class="devicon-postgresql-plain"></i> <i class="devicon-redis-plain"></i></h2>
-										<h4>Docker images I've built for work</h4>
+										<h2 class="major">DevOps <i class="devicon-docker-plain" title="Docker"></i> <i class="devicon-amazonwebservices-original" title="AWS"></i> <i class="devicon-postgresql-plain" title="PostgreSQL"></i> <i class="devicon-redis-plain" title="Redis"></i></h2>
+										<h4>Tools to help with DevOps work</h4>
+										<p>I created <a href="https://benbailey.me/cumulus/">Cumulus</a>,
+										a command-line tool for injecting CoreOS cloud-configs into
+										AWS Cloud Formation templates.
+										<br />
+										<br />
+										I've also published several Docker images:</p>
 										<ul>
-											<li><a href="https://hub.docker.com/r/bbailey/telegraf">Telegraf</a></li>
-											<li><a href="https://hub.docker.com/r/bbailey/redis">Redis</a></li>
-											<li><a href="https://hub.docker.com/r/bbailey/postgres">Postgres</a></li>
+											<li><a href="https://hub.docker.com/r/bbailey/telegraf">Telegraf</a>, when there was no official image</li>
+											<li><a href="https://hub.docker.com/r/bbailey/redis">Redis</a>, when there was no official slim Redis image</li>
+											<li><a href="https://hub.docker.com/r/bbailey/postgres">Postgres</a>, which is slimmer than the original Postgres image</li>
 										</ul>
 										<a href="https://benbailey.me/2015/06/docker-telegraf-metrics/" class="special">Learn more</a>
 									</div>
@@ -128,13 +135,14 @@
 						<!-- Five -->
 							<section id="five" class="wrapper spotlight style5">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/uncommon.png" alt="" /></a>
+									<a href="https://uncommon.cc" class="image"><img src="images/uncommon.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Uncommon <i class="devicon-docker-plain"></i> <i class="devicon-rails-plain"></i> <i class="devicon-amazonwebservices-original"></i></i></h2>
+										<h2 class="major">Uncommon <i class="devicon-docker-plain" title="Docker"></i> <i class="devicon-rails-plain" title="Rails"></i> <i class="devicon-amazonwebservices-original" title="AWS"></i></i></h2>
 										<h4>Infrastructure for <a href="https://uncommon.cc">Uncommon</a>, the internet's front porch</h4>
-										<p>I've worked on DevOps for Uncommon as a side project, which
-										included moving the project's infrastructure over to Docker
-										and implementing a new CI system.</p>
+										<p>I work on DevOps for Uncommon as a side project, which
+										includes moving the project's infrastructure over to
+										Docker, experimenting with AWS, and implementing a new
+										continuous integration system.</p>
 										<a href="https://uncommon.cc" class="special">Live</a>
 									</div>
 								</div>
@@ -143,14 +151,14 @@
 						<!-- Six -->
 							<section id="six" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/papers.png" alt="" /></a>
+									<a href="https://s3.amazonaws.com/benfb-landing-uploads/psilocybin.pdf" class="image"><img src="images/papers.png" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Papers <i class="fa fa-file-text-o" aria-hidden="true"></i> <i class="fa fa-university" aria-hidden="true"></i></h2>
-										<h4>Sampling of psychology/philosophy papers written at Hampshire College</h4>
+										<h4>Sampling of psychology/philosophy papers written at <a href="https://www.hampshire.edu">Hampshire College</a></h4>
 										<ul>
 											<li><a href="https://s3.amazonaws.com/benfb-landing-uploads/consciousness.pdf">An Escalation Model of Consciousness</a></li>
-											<li><a href="https://s3.amazonaws.com/benfb-landing-uploads/psilocybin.pdf">The Emotional Effects And Therapeutic Potential of Psilocybin for Treatment of Depression</a></li>
 											<li><a href="https://s3.amazonaws.com/benfb-landing-uploads/garcia.pdf">Living In an Intense World: An Examination of Tristan Garcia’s Ontology and Metaphysics</a></li>
+											<li><a href="https://s3.amazonaws.com/benfb-landing-uploads/psilocybin.pdf">The Emotional Effects And Therapeutic Potential of Psilocybin for Treatment of Depression</a></li>
 										</ul>
 									</div>
 								</div>
